@@ -1,5 +1,9 @@
 @use '../../styles/abstracts/' as *;
 
+.about_section {
+  margin-top: 2rem;
+}
+
 .about_txt {
   line-height: 2;
   color: $off-black;

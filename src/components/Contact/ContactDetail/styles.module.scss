@@ -1,0 +1,21 @@
+@use '../../../styles/abstracts/' as *;
+
+.contact_link {
+  display: block;
+  color: $off-white;
+  text-decoration: none;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  &:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  span {
+    svg {
+      font-size: 0.9rem;
+    }
+    &::after {
+      content: '  ';
+    }
+  }
+}

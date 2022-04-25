@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Bachelor of Informatics and Computer Science",
+    "school": "Strathmore University",
+    "from_to": "2017 - 2021",
+    "grade": "Second Class (Upper Division)"
+  },
+  {
+    "id": 2,
+    "title": "Kenya Certificate of Secondary Education ",
+    "school": "Nairobi School",
+    "from_to": "2013 - 2016",
+    "grade": ""
+  },
+  {
+    "id": 3,
+    "title": "Kenya Certificate of Primary Education ",
+    "school": "Visa Oshwal Primary School",
+    "from_to": "2005 - 2012",
+    "grade": ""
+  }
+]
