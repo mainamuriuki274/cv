@@ -1,3 +1,5 @@
-const App = () => <div className="App">Hello World</div>;
+import { CV } from './pages/CV';
+
+const App = () => <CV />;
 
 export default App;
