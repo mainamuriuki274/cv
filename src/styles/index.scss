@@ -14,3 +14,30 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.section_title-alt {
+  font-family: $secondary-font;
+  color: white;
+  font-size: 1rem;
+}
+
+.detail_section,
+.side_section {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  .section_title {
+    font-family: $secondary-font;
+    color: white;
+    font-size: 1rem;
+  }
+  .content {
+    padding-left: 1rem;
+  }
+}
+
+.detail_section {
+  .section_title {
+    color: $primary-color;
+    font-size: 1.2rem;
+  }
+}

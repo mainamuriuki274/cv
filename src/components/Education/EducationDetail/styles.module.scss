@@ -1,0 +1,30 @@
+@use '../../../styles/abstracts/' as *;
+
+.card {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin: 0;
+}
+
+.school {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: gray;
+  span {
+    &::before {
+      content: '(';
+    }
+    &::after {
+      content: ')';
+    }
+  }
+}
+
+.grade {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: $off-black;
+}
